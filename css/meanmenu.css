@@ -3,14 +3,14 @@
      display: none;
 }
  .mean-container .mean-bar {
-     background: #f00;
+  
      float: left;
-     min-height: 40px;
+     min-height: 0px;
      padding: 5px 0;
      position: relative;
      width: 100%;
      z-index: 999;
-     margin-top: 15px;
+     top: 10px;
 }
  .mean-container a.meanmenu-reveal {
      color: #fff;
@@ -23,7 +23,7 @@
      position: absolute;
      right: 12px;
      text-decoration: none;
-     top: 12px;
+     top: -120px;
      width: 26px;
 }
  .mean-container a.meanmenu-reveal span {
